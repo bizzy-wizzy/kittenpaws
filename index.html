@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For You 💌</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hearts"></div>
+
+  <!-- Intro Screen -->
+  <div id="intro" class="screen">
+    <h1>Hey you 👀</h1>
+    <p>I made something for you...</p>
+    <button id="startBtn">Open 💌</button>
+  </div>
+
+  <!-- Main Card -->
+  <div id="main" class="screen hidden">
+    <div class="card">
+      <h1>Hi, <span id="name">You</span> 😊</h1>
+      <p>So… I’ve been thinking 🤔</p>
+      <h2>Will you be my Valentine? 💘</h2>
+
+      <div class="buttons">
+        <button id="yesBtn">Yes 💖</button>
+        <button id="noBtn">No 🙃</button>
+      </div>
+
+      <p id="response"></p>
+    </div>
+  </div>
+
+  <!-- Yes Screen -->
+  <div id="yesScreen" class="screen hidden">
+    <h1>We’re officially a Valentine team 💕</h1>
+    <p>
+      Roses are red 🌹<br>
+      Code is neat 💻<br>
+      I’m really glad<br>
+      You said yes to this date 😌
+    </p>
+    <p class="small">Screenshot this and send it to me 😏</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
