@@ -1,5 +1,5 @@
 // Personalize name here 👇
-const crushName = "Kitten Paws 🐾"; // change this 😌
+const crushName = "Puppy 🐾"; // change this 😌
 
 document.getElementById("name").textContent = crushName;
 
